@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodieHub - Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍔 QuickBite</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Our Menu</h2>
+
+    <div class="card">
+      <img src="images/cheese_burger.jpg" alt="Cheese Burger" loading="lazy">
+      <h3>Cheese Burger</h3>
+      <p>$5.99</p>
+      <button onclick="addToCart('Cheese Burger', 5.99)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/veggie_pizza.jpg" alt="Pizza" loading="lazy">
+      <h3>Veggie Pizza</h3>
+      <p>$8.49</p>
+      <button onclick="addToCart('Veggie Pizza', 8.49)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/italian_pasta.jpg" alt="Pasta" loading="lazy">
+      <h3>Italian Pasta</h3>
+      <p>$6.79</p>
+      <button onclick="addToCart('Italian Pasta', 6.79)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/french_fries.jpg" alt="French Fries" loading="lazy">
+      <h3>French Fries</h3>
+      <p>$3.49</p>
+      <button onclick="addToCart('French Fries', 3.49)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/chicken_wings.jpg" alt="Chicken Wings" loading="lazy">
+      <h3>Chicken Wings</h3>
+      <p>$7.99</p>
+      <button onclick="addToCart('Chicken Wings', 7.99)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/caesar_salad.jpg" alt="Salad" loading="lazy">
+      <h3>Caesar Salad</h3>
+      <p>$4.99</p>
+      <button onclick="addToCart('Caesar Salad', 4.99)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/ice_cream.jpg" alt="Ice Cream" loading="lazy">
+      <h3>Ice Cream</h3>
+      <p>$2.99</p>
+      <button onclick="addToCart('Ice Cream', 2.99)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="images/cold_coffee.jpg" alt="Cold Coffee" loading="lazy">
+      <h3>Cold Coffee</h3>
+      <p>$1.99</p>
+      <button onclick="addToCart('Cold Coffee', 1.99)">Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- <footer>
+    <p>© 2025 FoodieHub</p>
+  </footer> -->
+
+  <!-- Floating Cart Button -->
+  <a href="cart.html" id="goToCartBtn" class="fixed-cart-btn">🛒 Go to Cart (0)</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
